@@ -1,6 +1,8 @@
 # Filtro_Total_Coches
  Aprendizaje de ngOnChanges y SimpleChanges para la creación de un filtro que cuente el total de coches.
 
+En este proyecto utilizamos **ngOnChanges** y **SimpleChanges** para practicar en la creación de un filtro que cuente o sume el total de los coches creados.
+
 Proyecto FiltroCoches, realizado en Angular.
 
 - 1º Para abrir este proyecto debemos tener instalado Angular en nuestro programa editor de código (Ya sea VisualStudioCode o el que utilicemos para correr el programa).
