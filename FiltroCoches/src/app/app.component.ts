@@ -9,5 +9,6 @@ export class AppComponent {
   title = 'FiltroCoches';
 
   marcaSeleccionada: string = 'Volvo';
-  // marcas: string[] = ['Volvo', 'Audi', 'Mercedes', 'BMW'];
+  marcas: string[] = ['Volvo', 'Toyota', 'Mercedes', 'Hyundai'];
+
 }

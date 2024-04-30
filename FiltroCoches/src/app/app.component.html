@@ -1,3 +1,15 @@
+<h3>Marcas de coche</h3>
+<mat-form-field>
+  <mat-label>Marca de coche</mat-label>
+<!-- <mat-select [value]="marcaSeleccionada"> Para que nos sugiera un coche por defecto -->
+     <mat-select [value]="marcaSeleccionada" (selectionChange)="marcaSeleccionada = $event.value">
+    <!-- Con: (selectionChange)="marcaSeleccionada = $event.value" 
+    Hace que el valor que cojamos nos lo pase dónde pongamos {{ marca }} -->
 
+      <mat-option *ngFor="let marca of marcas" [value]="marca">{{ marca }}
+      </mat-option>
+  </mat-select>
+</mat-form-field>
 
 <app-coches [marca]="marcaSeleccionada"></app-coches>
+
